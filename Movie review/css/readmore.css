@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+        "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+body {
+    background-color: #020916;
+}
+
+.container-header {
+    position: relative;
+}
+
+.head-images {
+
+    position: relative;
+
+    width: 100%;
+}
+
+.head-images>img {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+}
+
+.heading-main {
+    margin: -25% 4% 4%;
+    position: absolute;
+    padding-right: 49%;
+}
+
+.heading-main h1 {
+    color: white;
+    font-size: 63px;
+    text-shadow: 0px 0px 9px black;
+}
+
+.movie-details {
+    width: 100%;
+    position: relative;
+}
+
+.movie-details h1 {
+    color: white;
+    /* left: 27%; */
+    /* top: 15%; */
+    /* position: absolute; */
+    font-weight: 500;
+}
+
+.movie-thumbnail {
+    width: 22%;
+    height: 400px;
+    margin: 3%;
+    border-radius: 10px;
+    /* background: red; */
+    box-shadow: -1px 12px 54px -19px rgb(255 255 255 / 84%);
+}
+
+.movie-thumbnail>img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.movie-details p {
+    color: white;
+    position: absolute;
+}
+
+.movie-all {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.movie-paragraph {
+
+    display: flex;
+
+    width: 50%;
+
+    margin-top: 5%;
+
+    flex-direction: column;
+}
+
+.movie-paragraph p {
+    padding-right: 4%;
+    margin-top: 3px;
+    text-align: justify;
+}
+
+#rate-view {
+    display: flex;
+    color: white;
+    margin-top: 10px;
+    align-items: center;
+}
+
+#rate-view span {
+    color: #ffd700;
+    font-weight: 700;
+    margin-left: 11px;
+    text-shadow: 0px -3px 25px #ffd700;
+}
+
+#category {
+    margin-left: 11px;
+    background: #7b1fa2;
+    padding: 2px;
+    width: 79px;
+    border-radius: 58px;
+    text-align: center;
+}
+
+#add-comment {
+
+    text-align: center;
+
+    margin-left: 11px;
+
+    width: 100%;
+
+    border-radius: 20px;
+
+    padding: 4%;
+
+    cursor: pointer;
+}
+
+.comment-cards{
+   background-color: #020916; 
+}
